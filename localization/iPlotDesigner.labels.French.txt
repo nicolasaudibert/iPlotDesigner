@@ -1,0 +1,486 @@
+entry	displayedLabel
+windowTitle	iPlotDesigner - Comparaison interactive de distributions
+datafileInputLabel	Fichier de données
+browseInputFileLabel	Parcourir
+noFileSelectedPrompt	Aucun fichier sélectionné
+advancedImportOptionsLabel	Options avancées d'importation de données
+columnSeparatorSelectorLabel	Séparateur de colonnes
+sheetSelectorLabel	Feuille
+loadedFilePreviewDialogLabel	Prévisualisation du fichier de données
+loadedFilePreviewErrorMessage	Impossible de lire le fichier. Essayez avec un autre encodage et/ou vérifiez que le format de votre fichier est bien compatible.
+loadedFilePreviewWarningMessage	Avertissement lors de la lecture du fichier. Vérifiez que l'affichage ci-dessous est conforme à votre fichier de données.
+nLinesDisplayedInPreviewLabel	Nombre maximum de lignes affichées
+fileEncodingLabel	Encodage du fichier
+filePreviewCancelButtonLabel	Annuler
+filePreviewValidateButtonLabel	Charger
+naStringsFileImportLabel	Valeurs indéfinies (un code par ligne)
+loadedFileInfoLabel	Informations sur le fichier
+dataPreviewLabel	Aperçu des données
+columnSeparatorTabulation	tabulation (\t)
+columnSeparatorSpace	espace
+columnSeparatorComma	virgule (,)
+columnSeparatorSemicolon	point-virgule (;)
+encodingUnknown	inconnu
+dependentVarLabel	Variable dépendante (quantitative)
+independentVar1Label	Variable indépendante 1 (groupement principal)
+independentVar2Label	Variable indépendante 2 (groupement secondaire/facette)
+independentVar3Label	Variable indépendante 3 (facettes)
+variable	Variable
+swapVar1Var2Label	Échanger Var 1 ↔ Var 2
+swapVar2Var3Label	Échanger Var 2 ↔ Var 3
+swapVar1Var3Label	Échanger Var 1 ↔ Var 3
+selectAllLabel	Tout sélectionner
+selectNoneLabel	Tout désélectionner
+barChartTabLabel	Diagramme en barres
+boxplotTabLabel	Boîte à moustaches
+violinTabLabel	Graphique en violon
+histogramTabLabel	Histogramme
+densityTabLabel	Courbe de densité
+ridgeTabLabel	Graphique en crêtes
+generalSettingsTitle	Paramètres généraux de la figure
+alphaLabel	Transparence
+errorTypeLabel	Barres d'erreur
+errorTypeSELabel	Erreur-type
+errorTypeSDLabel	Écart-type
+errorBarWidthLabel	Largeur des barres d'erreur
+showPointsLabel	Afficher les points
+showBoxplotLabel	Afficher la boîte à moustaches
+showMeanLabel	Afficher la moyenne
+showDataLabelsLabel	Afficher les étiquettes de données
+showDensityOverlayLabel	Superposer la densité
+showRugLabel	Afficher le tapis de points
+showQuantilesLabel	Afficher les quantiles
+trimViolinLabel	Tronquer les queues du violon
+pointSizeLabel	Taille des points
+binNumberLabel	Nombre de classes
+positionLabel	Position
+lineSizeLabel	Épaisseur de ligne
+fillUnderCurveLabel	Remplir sous la courbe
+ridgeScaleLabel	Échelle des crêtes
+ridgeTypeLabel	Type de crête
+textSizeLabel	Taille du texte
+fontFamilyLabel	Police de caractères
+plotBackgroundLabel	Arrière-plan de la figure
+panelBackgroundLabel	Arrière-plan du panneau
+transparentBackgroundLabel	Arrière-plan transparent
+transparentPanelLabel	Panneau transparent
+exportFormatLabel	Format d'export
+exportWidthLabel	Largeur
+exportHeightLabel	Hauteur
+exportUnitsLabel	Unités
+downloadPlotLabel	Télécharger la figure
+showCodeLabel	Afficher le code R
+copyCodeLabel	Copier le code
+downloadCodeLabel	Télécharger le script
+codeCopiedNotification	Code copié dans le presse-papiers !
+errorTitle	Erreur
+fileReadError	Erreur lors de la lecture du fichier : 
+dtSearchLabel	Rechercher :
+dtLengthMenuLabel	Afficher _MENU_ entrées
+dtInfoLabel	Affichage de _START_ à _END_ sur _TOTAL_ entrées
+dtFirstLabel	Premier
+dtLastLabel	Dernier
+dtNextLabel	Suivant
+dtPreviousLabel	Précédent
+clipboardError	Échec de la copie dans le presse-papiers. Veuillez sélectionner et copier manuellement.
+noteLabel	Note :
+noIndependentVar2Label	-- Pas de variable indépendante 2 --
+noIndependentVar3Label	-- Pas de variable indépendante 3 --
+duplicateVariableWarningTitle	Sélection de variables dupliquées
+duplicateVariableWarningMessage	La même variable indépendante a été sélectionnée {count} fois. Veuillez vérifier que cela correspond à la configuration souhaitée.
+duplicateVariableDisabledMessage	L'histogramme et les courbes de densité sont désactivés quand toutes les variables indépendantes sont identiques.
+histogramDisabledTitle	Histogramme désactivé
+histogramDisabledMessage	L'histogramme est désactivé quand toutes les variables indépendantes sont identiques.
+densityDisabledTitle	Courbe de densité désactivée
+densityDisabledMessage	Les courbes de densité sont désactivées quand toutes les variables indépendantes sont identiques.
+okLabel	OK
+invalidVariableTitle	Sélection de variable invalide
+invalidVariableMessage	La variable ne peut pas être utilisée pour le groupement
+numericVariableError	Les variables numériques ne peuvent pas être utilisées pour le groupement. Veuillez sélectionner une variable catégorielle.
+insufficientDataError	Cette variable n'a aucune catégorie avec suffisamment de données pour l'analyse.
+modalitiesFilteredNotification	{count} modalités exclues (données insuffisantes)
+insufficientDataTitle	Données insuffisantes
+insufficientDataMessage	La combinaison sélectionnée ne produit pas suffisamment de données pour l'affichage.
+insufficientDataSuggestion1	Sélectionner des variables différentes
+insufficientDataSuggestion2	Inclure plus de modalités
+insufficientDataSuggestion3	Utiliser un sous-ensemble de données différent
+modalitiesFilteredDialogTitle	Modalités automatiquement filtrées
+filteredModalitiesLabel	Modalités filtrées
+modalitiesExcludedReason	Ces modalités ont été automatiquement exclues car elles contiennent moins de 2 observations
+moveModalityUpTitle	Monter cette modalité
+moveModalityDownTitle	Descendre cette modalité
+selectAllValidModalities	Sélectionner toutes les modalités valides
+deselectAllModalities	Désélectionner toutes les modalités
+validModalitiesCount	Modalités valides : {valid}/{total}
+insufficientDataNote	Données insuffisantes
+lessThanTwoObservations	Moins de 2 observations, insuffisant pour graphes densité/en crêtes
+codeAdjustPathComment	Ajuster le chemin et la fonction de lecture selon le format de votre fichier
+codeFilterDataComment	Filtrer les données pour
+codeSetFactorLevelsComment	Définir les niveaux de facteur pour
+codeCalculateSummaryComment	Calculer les statistiques de synthèse
+codeCreateBarPlotComment	Créer le diagramme en barres
+codeCreateBoxPlotComment	Créer la boîte à moustaches
+codeCreateViolinPlotComment	Créer le graphique en violon
+codeCreateHistogramComment	Créer l'histogramme
+codeCreateDensityPlotComment	Créer la courbe de densité
+codeCreateRidgePlotComment	Créer le graphique en crêtes
+codeDisplayPlotComment	Afficher la figure
+codeSavePlotComment	Sauvegarder la figure
+ridgeTypeDensity	Densité
+ridgeTypeHistogram	Histogramme
+variable1TabLabel	Variable 1
+variable2TabLabel	Variable 2
+variable3TabLabel	Variable 3
+dataFilteringTabLabel	Filtrage des données
+advancedFilteringTitle	Filtrage avancé des données
+noVariableSelectedMessage	Aucune variable sélectionnée
+variableSelectionTabLabel	Sélection des variables
+variableSelectionTitle	Sélection et configuration des variables
+variableSwapTitle	Échange de variables
+selectVariableInstructions	Sélectionnez une variable dans les listes déroulantes de l'onglet Sélection des variables pour configurer ses propriétés.
+profilingTitle	Profilage de performance
+startProfilingLabel	Démarrer le profilage
+stopProfilingLabel	Arrêter le profilage
+downloadProfileLabel	Télécharger le profil
+profilingInstructions	Utilisez le profilage pour analyser les goulots d'étranglement. Démarrez avant de déclencher des opérations lentes.
+codeFilterComment	Note : Les données ont été filtrées de {original} à {filtered} lignes
+codeFilterNote	Ce filtrage a été appliqué via l'onglet Filtrage des données de l'interface.
+codeFilterInstructions	Pour reproduire le même filtrage, appliquez les mêmes conditions de filtre utilisées dans l'interface.
+codeFilterManualNote	Vous devrez peut-être ajouter des instructions filter() spécifiques ici selon vos critères de filtrage.
+enableUserChoiceLabel	Activer les dialogues de choix utilisateur avancés
+variableValidationSettingsTitle	Paramètres de validation des variables
+modalitiesChoiceDialogTitle	Options de filtrage des modalités
+numericConversionDialogTitle	Conversion de variable numérique
+complexityWarningDialogTitle	Avertissement de complexité de variable
+automaticallyExcludeInvalidOption	✓ Exclure automatiquement les modalités invalides (Recommandé)
+keepAllModalitiesOption	⚠ Conserver toutes les modalités (peut affecter la lisibilité et les performances du graphique)
+convertToCategoricalOption	✓ Convertir en variable catégorielle (Recommandé pour ≤{threshold} valeurs uniques)
+cancelVariableSelectionOption	Annuler la sélection de variable
+applySmartFilteringOption	✓ Appliquer un filtrage intelligent (Conserver les {n} plus fréquentes, Recommandé)
+applyCustomFilteringOption	Appliquer un filtrage personnalisé (Choisir le seuil)
+continueWithAllModalitiesOption	Continuer avec toutes les modalités (Impact sur les performances : {level})
+uniqueValuesLabel	Valeurs uniques
+conversionPreviewLabel	Aperçu de conversion
+conversionPreviewText	Ceci traitera
+uniqueNumericValuesText	valeurs numériques uniques comme des catégories séparées
+chooseActionLabel	Choisissez votre action préférée :
+cannotConvertLabel	Impossible de convertir :
+tooManyUniqueValuesText	Trop de valeurs uniques pour une catégorisation efficace
+suggestedAlternativesLabel	Alternatives suggérées :
+createBinsAlternative	Créer des intervalles/plages en utilisant le préprocessing
+useDifferentVariableAlternative	Utiliser une variable de groupement différente
+filterDataAlternative	Filtrer les données pour réduire les valeurs uniques
+performanceImpactTitle	Impact sur les performances
+recommendedOptionSuffix	(Recommandé)
+customFilteringTitle	Options de filtrage personnalisé
+keepTopNLabel	Conserver les N modalités principales
+minimumFrequencyLabel	Fréquence minimale
+complexitySimple	Simple
+complexityModerate	Modéré
+complexityComplex	Complexe
+complexityVeryComplex	Très complexe
+complexityExtreme	Extrême
+userChoiceConfirmLabel	Confirmer le choix
+userChoiceCancelLabel	Annuler
+choiceAppliedNotification	Votre choix a été appliqué avec succès
+estimatedUITime	Temps de réponse UI estimé
+domElementsCount	Éléments UI à rendre
+memoryUsageEstimate	Estimation d'utilisation mémoire
+performanceLevelAcceptable	Acceptable
+advancedFilteringTitle	Filtrage avancé
+cannotConvertLabel	Impossible de convertir :
+tooManyUniqueValuesText	Trop de valeurs uniques pour une catégorisation efficace
+suggestedAlternativesLabel	Alternatives suggérées :
+createBinsAlternative	Créer des intervalles/plages en utilisant le préprocessing
+useDifferentVariableAlternative	Utiliser une variable de groupement différente
+filterDataAlternative	Filtrer les données pour réduire les valeurs uniques
+performanceImpactTitle	Impact sur les performances
+estimatedUITime	Temps de réponse UI estimé
+domElementsCount	Éléments UI à rendre
+memoryUsageEstimate	Estimation d'utilisation mémoire
+complexityLevel	Niveau de complexité
+customFilteringTitle	Options de filtrage personnalisé
+keepTopNLabel	Conserver les N modalités principales
+minimumFrequencyLabel	Fréquence minimale
+performanceWarningText	Les graphiques peuvent être très lents à générer et difficiles à lire avec autant de modalités
+selectOptionPrompt	Veuillez sélectionner une option
+modalitiesLabel	modalités
+continueQuestionLabel	Voulez-vous continuer ?
+modalityCountLabel	Modalités
+complexitySimple	Simple
+complexityModerate	Modérée
+complexityComplex	Complexe
+complexityVeryComplex	Très complexe
+complexityExtreme	Extrême
+performanceLevelLow	Impact faible
+performanceLevelAcceptable	Acceptable
+performanceLevelHigh	Impact élevé
+smartFilteringAppliedText	Filtrage intelligent appliqué
+customFilteringAppliedText	Filtrage personnalisé appliqué
+automaticFilteringAppliedText	Modalités filtrées automatiquement selon les critères sélectionnés
+modalitiesKeptText	modalités conservées
+smartFilteringErrorText	Erreur lors du filtrage intelligent
+customFilteringErrorText	Erreur lors du filtrage personnalisé
+performanceLevelVeryHigh	Impact très élevé
+allModalitiesKeptText	Toutes les modalités conservées
+modalitiesLabel	modalités
+errorApplyingChoiceText	Erreur lors de l'application du choix
+filteringMethodTitle	Méthode de filtrage
+topNFilteringMethodOption	Conserver les N modalités les plus fréquentes
+minFreqFilteringMethodOption	Conserver les modalités avec une fréquence minimale
+combinedFilteringMethodOption	Combiné : top N parmi celles avec fréquence ≥ seuil
+numberOfModalitiesLabel	Nombre de modalités (N)
+minimumFrequencyThresholdLabel	Seuil de fréquence minimale
+defaultFilteringPreviewText	Aperçu : Les 50 modalités les plus fréquentes seront conservées (50/total)
+numericConversionWarningText	⚠ Attention : {count} catégories créeront des graphiques complexes et lents.
+cancelVariableSelectionRecommendedOption	{cancel_text} (Recommandé)
+convertToCategorialNotRecommendedOption	⚠ Convertir en variable catégorielle (Non recommandé pour {count} valeurs > {threshold})
+codeHeaderUserOperations	HISTORIQUE DES OPÉRATIONS UTILISATEUR
+codeSessionLabel	Session
+codeGeneratedOnLabel	Généré le
+codeTotalOperationsLabel	Total des opérations
+codeNumericConversionsTitle	CONVERSIONS DE VARIABLES NUMÉRIQUES
+codeCustomFilteringTitle	FILTRAGE PERSONNALISÉ DES MODALITÉS
+codeVariableLabel	Variable
+codeOriginalValuesLabel	Valeurs uniques originales
+codeConversionMethodLabel	Méthode de conversion
+codeFilteringMethodLabel	Méthode de filtrage
+codeDataVerificationLabel	Vérification des données après opérations
+codeSuccessMessage	Opération appliquée avec succès
+codeErrorMessage	Erreur lors de l'application de l'opération
+codeFilteringReproductionNote	Pour reproduire ce filtrage exactement
+codeNumericConversionNote	Cette conversion préserve l'ordre exact utilisé dans l'application
+codeOperationsMetadataInclude	Inclure les métadonnées dans le code généré
+codeOperationsTimestampsInclude	Inclure les horodatages des opérations
+codeOperationsPlatformInclude	Inclure la version de R et les informations sur la plateforme
+codeAdvancedOptionsTitle	Options Avancées de Génération de Code
+codeErrorHandlingInclude	Inclure la gestion d'erreurs dans les opérations
+codeVerificationStepsInclude	Inclure les étapes de vérification des données
+codePerformanceOptimInclude	Utiliser l'optimisation de performance
+codeAdvancedOptionsHelp	Ces options contrôlent la documentation des opérations utilisateur dans le code R généré. Les modifications s'appliquent au nouveau code généré.
+codeNumericConversionNote	Cette conversion préserve l'ordre exact utilisé dans l'application
+codeExactLevelsUnavailable	Attention : Niveaux exacts non disponibles, utilisation du tri numérique
+codeErrorHandlingInclude	Inclure la gestion d'erreurs dans les opérations
+codeVerificationStepsInclude	Inclure les étapes de vérification des données
+codePerformanceOptimInclude	Utiliser l'optimisation de performance
+codeAdvancedOptionsHelp	Ces options contrôlent la documentation des opérations utilisateur dans le code R généré. Les modifications s'appliquent au nouveau code généré.
+codeVerificationStartMessage	Vérification des données après les opérations utilisateur
+codeVerificationLevelsText	niveaux
+codeVerificationRowsText	lignes
+codeVerificationDatasetSizeText	Taille finale du jeu de données
+codeUserModifiedOrderNote	Ordre modifié par l'utilisateur après conversion
+codeHeaderTitle	iPlotDesigner - Code R Généré (Opérations Exécutables)
+codeRVersionTitle	Version R et versions des packages
+codeRequiredLibrariesTitle	Bibliothèques requises
+codeLoadDataTitle	Charger les données
+codeFilteringErrorMessage	Erreur lors du filtrage pour
+codeMeanLabel	Moyenne
+codeThresholdUsedLabel	Seuil utilisé
+codeFactorOrderPreservationLabel	Facteur avec ordre numérique préservé
+codeFallbackLabel	Solution de repli
+codeOriginalModalitiesLabel	Modalités originales
+codeKeptModalitiesLabel	Modalités conservées
+codeSmartFilterMethodDescription	Conserver les N modalités les plus fréquentes
+codeTopNMethodDescription	Conserver les N modalités principales
+codeMinFreqMethodDescription	Conserver les modalités avec fréquence
+codeCombinedMethodDescription	Combiné - top N parmi celles avec fréquence
+codeAutoExcludeMethodDescription	Exclusion automatique des modalités avec < 2 observations
+codeSpecificModalitiesMethodDescription	Conserver les modalités spécifiques sélectionnées par l'utilisateur
+codeFilteringAppliedMessage	Filtrage appliqué pour
+codeTopNFilteringAppliedMessage	Filtrage top-N appliqué pour
+codeFreqFilteringAppliedMessage	Filtrage par fréquence appliqué pour
+codeCombinedFilteringAppliedMessage	Filtrage combiné appliqué pour
+codeAutoExclusionAppliedMessage	Exclusion automatique appliquée pour
+codeSpecificFilteringAppliedMessage	Filtrage spécifique appliqué pour
+filteredModalitiesCountLabel	Modalités filtrées
+estimatedResponseTimeLabel	Temps de réponse estimé
+uiElementsLabel	Éléments UI
+memoryUsageLabel	Utilisation mémoire
+filteredModalitiesExamplesTitle	Exemples de modalités filtrées (< 2 observations)
+totalModalitiesLabel	au total
+warningAttention	Attention
+keepAllModalitiesWarning	Conserver toutes les modalités peut rendre les graphiques difficiles à lire et plus lents à générer
+pleaseSelectOptionMessage	Veuillez sélectionner une option
+codeDensityLabel	Densité
+codeCountLabel	Effectifs
+advancedImportOptionsTooltip	Prévisualiser les données avant chargement et configurer les paramètres d'import : séparateur de colonnes, encodage, sélection de feuille, valeurs indéfinies
+dialogErrorMessage	Une erreur s'est produite lors de l'affichage du dialogue avancé.
+dialogErrorTitle	Erreur de dialogue
+errorDetails	Détails de l'erreur
+fallbackMessage	Veuillez utiliser la validation de base ou contacter le support.
+performanceAcceptableText	Performance acceptable attendue
+performanceGoodText	Bonne performance attendue
+performanceSlowText	Performance lente attendue
+performanceVerySlowText	Performance très lente attendue
+duplicateVariableReuseNotification	Variable réutilisée automatiquement avec les propriétés existantes
+duplicateVariableReuseDetails	Propriétés copiées depuis Variable {source} : {modality_count} modalités, couleurs et ordre
+duplicatePropertiesApplied	Propriétés dupliquées appliquées avec succès
+variableIsSourceLabel	Source (modifiable)
+variableIsCopyLabel	Copie de Variable {source} (lecture seule)
+variablePropertiesSynchronized	Propriétés synchronisées avec Variable {source}
+sourceVariableDeselected	Variable {var} devient la source (source précédente désélectionnée)
+variableIsCopyLabel	Copie de Variable {source} (lecture seule)
+variablePropertiesSynchronized	Propriétés synchronisées avec Variable {source}
+modifyPropertiesInSourceTab	Pour modifier les propriétés, veuillez utiliser l'onglet {source_tab}.
+sourceVariableDeselected	Variable {var} devient la source (source précédente désélectionnée)
+naValuesDialogTitle	Valeurs indéfinies (NA) détectées
+naValuesMessage	La variable {variable} contient {count} valeurs indéfinies (NA) ({percentage}% des données)
+filterNAOption	✓ Filtrer les lignes avec valeurs indéfinies (Recommandé)
+assignCodeOption	Attribuer un libellé personnalisé aux valeurs indéfinies
+keepNAOption	Conserver les valeurs indéfinies comme catégorie distincte
+naCustomLabelPrompt	Libellé personnalisé pour les valeurs indéfinies :
+naCustomLabelDefault	Inconnu
+naNumericVariableWarningTitle	⚠ Variable numérique
+naNumericVariableWarningMessage	Il s'agit d'une variable numérique. Choisir 'Attribuer un libellé' ou 'Conserver comme catégorie' la convertira en variable catégorielle.
+cancelLabel	Annuler
+unsupportedVariableTitle	Variable Non Supportée
+unsupportedVariableMessage	Cette variable ne peut pas être utilisée pour le groupement.
+codeNAHandlingTitle	TRAITEMENT DES VALEURS INDEFINIES (NA)
+codeNAHandlingNote	Opérations appliquées pour traiter les valeurs indéfinies (NA)
+codeNACountLabel	Valeurs NA
+codeFilterNADescription	Filtrage des lignes avec valeurs NA
+codeAssignCodeDescription	Attribution d'un code personnalisé aux valeurs NA
+codeKeepNADescription	Conservation des NA comme catégorie distincte
+codeFilterNASuccess	Lignes avec NA filtrées
+codeAssignCodeSuccess	Code personnalisé attribué aux NA
+codeKeepNASuccess	NA conservées comme catégorie
+codeNAHandlingError	Erreur lors du traitement des NA pour
+codeFilterSubgroupsComment	Filtrage des sous-groupes avec données insuffisantes pour le calcul de densité
+sampleSizeTabLabel	Effectifs
+sampleSizeTitle	Effectifs par sous-groupe
+sampleSizeVar3DisplayLabel	Affichage de la Variable 3
+sampleSizeShowTotalsLabel	Afficher les totaux marginaux
+sampleSizeHideEmptyLabel	Masquer lignes/colonnes vides
+sampleSizeTablesPerRowLabel	Tableaux par ligne
+sampleSizeLegendTitle	Légende
+sampleSizeZeroLabel	Effectif nul
+sampleSizeOneLabel	Valeur unique
+sampleSizeNormalLabel	Effectif normal
+sampleSizeCount	Effectif
+sampleSizeTotal	Total
+sampleSizeFacetLabel	Groupe
+subgroupWarningBoth	La sélection de variables inclut {N1} groupe(s) sans aucune valeur et {N2} groupe(s) à une seule valeur. Voir l'onglet Effectifs pour les détails.
+subgroupWarningZero	La sélection de variables inclut {N1} groupe(s) sans aucune valeur. Voir l'onglet Effectifs pour les détails.
+subgroupWarningOne	La sélection de variables inclut {N2} groupe(s) à une seule valeur. Voir l'onglet Effectifs pour les détails.
+filteringNotInCodeWarning	Note : Le filtrage appliqué via ce tableau affecte les graphiques affichés mais n'est PAS répercuté dans le code R généré.
+barTypeLabel	La hauteur des barres représente
+barTypeMeanLabel	Moyenne
+barTypeCountLabel	Effectifs
+codeCountLabel	Effectif
+sampleSizeVar3Facets	Facettes (tableaux séparés)
+sampleSizeVar3Rows	Lignes (Var1 × Var3)
+sampleSizeVar3Cols	Colonnes (Var2 × Var3)
+themeAdvancedOptionsTitle	Options avancées de thème
+themeBaseThemeLabel	Thème de base
+themeLegendBackgroundLabel	Arrière-plan légende identique au panneau
+themeLegendBackgroundColorLabel	Couleur arrière-plan légende
+themeLegendKeyLabel	Clé légende identique au panneau
+themeLegendKeyColorLabel	Couleur clé légende
+themeStripBackgroundLabel	Bandeau facette identique au panneau
+themeStripBackgroundColorLabel	Couleur bandeau facette
+themeLegendPositionLabel	Position de la légende
+themeAxisTextSizeLabel	Taille texte axes
+themeAxisTextFamilyLabel	Police texte axes
+themeXAxisTextSizeLabel	Taille texte axe X
+themeYAxisTextSizeLabel	Taille texte axe Y
+themeXAxisTextAngleLabel	Angle texte axe X
+themeYAxisTextAngleLabel	Angle texte axe Y
+themeXAxisTextFamilyLabel	Police axe X
+themeYAxisTextFamilyLabel	Police axe Y
+themeUseGlobalSizeLabel	Utiliser taille de texte globale
+themeUseGlobalFontLabel	Utiliser police globale
+themeResetToDefaultLabel	Réinitialiser
+themeAdvancedOptionsHelp	Ces options permettent un contrôle précis de l'apparence des graphiques. Les modifications s'appliquent immédiatement aux graphiques affichés et au code généré.
+themeLegendBackgroundColorLabel	Couleur de fond de la légende
+themeFaceLabel	Style
+themeFacePlain	Normal
+themeFaceBold	Gras
+themeFaceItalic	Italique
+themeFaceBoldItalic	Gras italique
+themeAdvancedCustomizationNote	Note : Cette interface couvre les options de thème les plus courantes. Pour une personnalisation avancée (marges, espacements, positions des éléments, etc.), vous pouvez modifier la section theme() dans le code R généré.
+themeCodeDocumentationComment	Personnalisation du thème - Voir la documentation ggplot2 :
+themeBaseThemeSection	Thème de base
+themeBackgroundSection	Éléments d'arrière-plan
+themeAxisTextSection	Personnalisation du texte des axes
+themeXAxisSection	Axe X
+themeYAxisSection	Axe Y
+themeBaseThemeHelp	Le thème de base fournit un cadre graphique général. Les personnalisations ci-dessous modifient des éléments spécifiques.
+themeLegendPositionHelp	Position de la légende par rapport à la zone de tracé.
+themeLegendPositionRight	Droite
+themeLegendPositionLeft	Gauche
+themeLegendPositionTop	Haut
+themeLegendPositionBottom	Bas
+themeLegendPositionNone	Aucune
+themeGridBorderSection	Grilles et bordures
+themeGridBorderHelp	La visibilité des grilles et bordures dépend du thème de base sélectionné. Ces options n'affectent que les éléments visibles.
+themeMajorGridSection	Lignes de grille principales
+themeMinorGridSection	Lignes de grille secondaires
+themePanelBorderSection	Bordure du panneau
+themeStripBorderSection	Bordure des bandeaux (facettes)
+themeGridMajorColorLabel	Couleur grille principale
+themeGridMinorColorLabel	Couleur grille secondaire
+themeGridMajorSizeLabel	Épaisseur grille principale
+themeGridMinorSizeLabel	Épaisseur grille secondaire
+themePanelBorderColorLabel	Couleur bordure panneau
+themePanelBorderSizeLabel	Épaisseur bordure panneau
+themeStripBorderColorLabel	Couleur bordure bandeau
+themeStripBorderSizeLabel	Épaisseur bordure bandeau
+themeTitlesSection 	Personnalisation des titres
+themeUseGlobalTitlesSizeLabel 	Utiliser la taille de texte globale pour les titres
+themeUseGlobalTitlesFontLabel 	Utiliser la police globale pour les titres
+themeTitlesSizeLabel 	Taille du texte des titres
+themeTitlesFontLabel 	Police des titres
+themeIndividualTitlesSection 	Contrôles individuels des titres
+themeAxisTitleXLabel 	Titre de l'axe X
+themeAxisTitleYLabel 	Titre de l'axe Y
+themeStripTextLabel 	Texte des facettes
+themeStripSeparateXY 	Séparer les facettes X/Y
+themeStripTextXLabel 	Facette X
+themeStripTextYLabel 	Facette Y
+themeLegendTitleLabel 	Titre de la légende
+themeLegendTextLabel 	Texte de la légende
+themeUseGlobalAxisSizeLabel	Utiliser la taille de texte globale pour les axes
+themeUseGlobalAxisFontLabel	Utiliser la police globale pour les axes
+themeShowMajorGrid	Afficher la grille principale
+themeShowMinorGrid	Afficher la grille secondaire
+themeShowLegendKey	Afficher le fond de la clé de légende
+themeShowPanelBorder	Afficher la bordure du panneau
+themeShowStripBorder	Afficher la bordure des bandeaux
+themeLegendKeyBorderColorLabel	Couleur de la bordure de la clé de légende
+themeLegendKeySection	Bordure de la clé de légende
+themeSizeLabel	Taille
+themeFontLabel	Police
+includeSystemFontsLabel	Inclure les polices système
+includeSystemFontsHelp	Nécessite le package extrafont. Voir la documentation pour les instructions d'installation.
+extrafontNotInstalledTitle	Package non installé
+extrafontNotInstalledMessage	Le package extrafont est requis pour les polices système. Veuillez d'abord l'installer :
+noFontsImportedMessage	Aucune police importée
+fontsAvailableMessage	polices disponibles
+errorLabel	Erreur
+fontImportTitle	Importer les polices système
+fontImportWarning	Cette opération importera toutes les polices système. Cela peut prendre plusieurs minutes (généralement 2 à 5 minutes).
+fontImportNote	Note : Cette opération ne doit être effectuée qu'une seule fois. Les polices resteront disponibles dans les sessions futures.
+suppressFontWarningsLabel	Supprimer les avertissements pour les polices sans métadonnées (recommandé)
+confirmImportLabel	Importer les polices
+fontImportDisabledTitle	Importation de polices désactivée
+fontImportDisabledMessage	L'importation de polices système est désactivée dans ce déploiement. Seules les polices pré-importées sont disponibles.
+fontImportDisabledNote	Si vous avez besoin de polices système, veuillez contacter votre administrateur ou utiliser une installation locale.
+fontsLoadedMessage	Polices système chargées :
+fontImportInProgress	Importation des polices système... Cela peut prendre plusieurs minutes.
+fontsImportedMessage	Polices système importées avec succès :
+fontImportError	Échec de l'importation des polices :
+reimportFontsTitle	Ré-importer les polices système
+reimportFontsQuestion	Cela re-analysera votre système pour détecter les polices. À utiliser après l'installation de nouvelles polices.
+reimportFontsWarning	Cette opération peut prendre plusieurs minutes.
+confirmLabel	Ré-importer
+fontsReimportedMessage	Polices système ré-importées avec succès :
+fontReimportError	Échec de la ré-importation des polices :
+codeCommentBaseTheme	Thème de base
+codeCommentGeneralTheme	Paramètres généraux du thème
+codeCommentLegendPosition	Position de la légende
+codeCommentBackgrounds	Couleurs d'arrière-plan
+codeCommentTitles	Personnalisation des titres
+codeCommentAxisText	Personnalisation du texte des axes
+codeCommentGridsBorders	Grilles et bordures
+codeCommentFontSetup	Configuration des polices (polices système)
+codeCommentRequiredFonts	Polices requises :

@@ -1,0 +1,486 @@
+entry	displayedLabel
+windowTitle	iPlotDesigner - Interactive distribution comparison
+datafileInputLabel	Data file
+browseInputFileLabel	Browse
+noFileSelectedPrompt	No file selected
+advancedImportOptionsLabel	Advanced data import options
+columnSeparatorSelectorLabel	Column separator
+sheetSelectorLabel	Sheet
+loadedFilePreviewDialogLabel	Data file preview
+loadedFilePreviewErrorMessage	Unable to read file. Try another encoding and/or check that your file format is compatible.
+loadedFilePreviewWarningMessage	Warning while reading file. Check that the display below matches your data file.
+nLinesDisplayedInPreviewLabel	Maximum number of lines displayed
+fileEncodingLabel	File encoding
+filePreviewCancelButtonLabel	Cancel
+filePreviewValidateButtonLabel	Load
+naStringsFileImportLabel	Undefined values (one code per line)
+loadedFileInfoLabel	File Information
+dataPreviewLabel	Data Preview
+columnSeparatorTabulation	tabulation (\t)
+columnSeparatorSpace	space
+columnSeparatorComma	comma (,)
+columnSeparatorSemicolon	semicolon (;)
+encodingUnknown	unknown
+dependentVarLabel	Dependent variable (quantitative)
+independentVar1Label	Independent variable 1 (primary grouping)
+independentVar2Label	Independent variable 2 (secondary grouping/facet)
+independentVar3Label	Independent variable 3 (faceting)
+variable	Variable
+swapVar1Var2Label	Swap Var 1 ↔ Var 2
+swapVar2Var3Label	Swap Var 2 ↔ Var 3
+swapVar1Var3Label	Swap Var 1 ↔ Var 3
+selectAllLabel	Select all
+selectNoneLabel	Select none
+barChartTabLabel	Bar chart
+boxplotTabLabel	Box plot
+violinTabLabel	Violin plot
+histogramTabLabel	Histogram
+densityTabLabel	Density plot
+ridgeTabLabel	Ridge plot
+generalSettingsTitle	General plot settings
+alphaLabel	Transparency
+errorTypeLabel	Error bars
+errorBarWidthLabel	Error bar width
+errorTypeSELabel	Standard error
+errorTypeSDLabel	Standard deviation
+showPointsLabel	Show data points
+showBoxplotLabel	Show boxplot
+showMeanLabel	Show mean
+showDataLabelsLabel	Show data labels
+showDensityOverlayLabel	Show density overlay
+showRugLabel	Show rug plot
+showQuantilesLabel	Show quantiles
+trimViolinLabel	Trim violin tails
+pointSizeLabel	Point size
+binNumberLabel	Number of bins
+positionLabel	Position
+lineSizeLabel	Line width
+fillUnderCurveLabel	Fill under curve
+ridgeScaleLabel	Ridge scale
+ridgeTypeLabel	Ridge type
+textSizeLabel	Text size
+fontFamilyLabel	Font family
+plotBackgroundLabel	Plot background
+panelBackgroundLabel	Panel background
+transparentBackgroundLabel	Transparent background
+transparentPanelLabel	Transparent panel
+exportFormatLabel	Export format
+exportWidthLabel	Width
+exportHeightLabel	Height
+exportUnitsLabel	Units
+downloadPlotLabel	Download plot
+showCodeLabel	Show R code
+copyCodeLabel	Copy code
+downloadCodeLabel	Download script
+codeCopiedNotification	Code copied to clipboard!
+errorTitle	Error
+fileReadError	Error reading file: 
+dtSearchLabel	Search:
+dtLengthMenuLabel	Show _MENU_ entries
+dtInfoLabel	Showing _START_ to _END_ of _TOTAL_ entries
+dtFirstLabel	First
+dtLastLabel	Last
+dtNextLabel	Next
+dtPreviousLabel	Previous
+clipboardError	Failed to copy to clipboard. Please select and copy manually.
+noteLabel	Note:
+noIndependentVar2Label	-- No independent variable 2 --
+noIndependentVar3Label	-- No independent variable 3 --
+duplicateVariableWarningTitle	Duplicate Variable Selection
+duplicateVariableWarningMessage	The same independent variable has been selected {count} times. Please verify this is the intended configuration.
+duplicateVariableDisabledMessage	Histogram and density plots are disabled when all independent variables are identical.
+histogramDisabledTitle	Histogram disabled
+histogramDisabledMessage	Histogram plots are disabled when all independent variables are identical.
+densityDisabledTitle	Density plot disabled
+densityDisabledMessage	Density plots are disabled when all independent variables are identical.
+okLabel	OK
+invalidVariableTitle	Invalid Variable Selection
+invalidVariableMessage	Variable cannot be used for grouping
+numericVariableError	Numeric variables cannot be used for grouping. Please select a categorical variable.
+insufficientDataError	This variable has no categories with sufficient data for analysis.
+modalitiesFilteredNotification	{count} modalities excluded (insufficient data)
+insufficientDataTitle	Insufficient Data
+insufficientDataMessage	The selected combination results in insufficient data for plotting.
+insufficientDataSuggestion1	Selecting different variables
+insufficientDataSuggestion2	Including more modalities
+insufficientDataSuggestion3	Using a different data subset
+modalitiesFilteredDialogTitle	Modalities Automatically Filtered
+filteredModalitiesLabel	Filtered modalities
+modalitiesExcludedReason	These modalities have been automatically excluded because they contain fewer than 2 observations
+moveModalityUpTitle	Move this modality up
+moveModalityDownTitle	Move this modality down
+selectAllValidModalities	Select all valid modalities
+deselectAllModalities	Deselect all modalities
+validModalitiesCount	Valid modalities: {valid}/{total}
+insufficientDataNote	Insufficient data
+lessThanTwoObservations	Less than 2 observations, insufficient for density/ridge plots
+codeAdjustPathComment	Adjust the path and reading function according to your file format
+codeFilterDataComment	Filter data for
+codeSetFactorLevelsComment	Set factor levels for
+codeCalculateSummaryComment	Calculate summary statistics
+codeCreateBarPlotComment	Create bar plot
+codeCreateBoxPlotComment	Create boxplot
+codeCreateViolinPlotComment	Create violin plot
+codeCreateHistogramComment	Create histogram
+codeCreateDensityPlotComment	Create density plot
+codeCreateRidgePlotComment	Create ridge plot
+codeDisplayPlotComment	Display plot
+codeSavePlotComment	Save plot
+ridgeTypeDensity	Density
+ridgeTypeHistogram	Histogram
+variable1TabLabel	Variable 1
+variable2TabLabel	Variable 2  
+variable3TabLabel	Variable 3
+dataFilteringTabLabel	Data filtering
+advancedFilteringTitle	Advanced data filtering
+noVariableSelectedMessage	No variable selected
+variableSelectionTabLabel	Variable selection
+variableSelectionTitle	Variable selection and configuration
+variableSwapTitle	Variable swapping
+selectVariableInstructions	Select a variable from the dropdown in the Variable Selection tab to configure its properties.
+profilingTitle	Performance Profiling
+startProfilingLabel	Start Profiling
+stopProfilingLabel	Stop Profiling
+downloadProfileLabel	Download Profile
+profilingInstructions	Use profiling to analyze performance bottlenecks. Start before triggering slow operations.
+codeFilterComment	Note: Data has been filtered from {original} to {filtered} rows
+codeFilterNote	This filtering was applied via the Data Filtering tab in the interface.
+codeFilterInstructions	To reproduce the same filtering, apply the same filter conditions used in the interface.
+codeFilterManualNote	You may need to add specific filter() statements here based on your filtering criteria.
+enableUserChoiceLabel	Enable advanced user choice dialogs
+variableValidationSettingsTitle	Variable Validation Settings
+modalitiesChoiceDialogTitle	Modality Filtering Options
+numericConversionDialogTitle	Numeric Variable Conversion
+complexityWarningDialogTitle	Variable Complexity Warning
+automaticallyExcludeInvalidOption	✓ Automatically exclude invalid modalities (Recommended)
+keepAllModalitiesOption	⚠ Keep all modalities (may affect plot readability and performance)
+convertToCategoricalOption	✓ Convert to categorical variable (Recommended for ≤{threshold} unique values)
+cancelVariableSelectionOption	Cancel variable selection
+applySmartFilteringOption	✓ Apply smart filtering (Keep top {n} most frequent, Recommended)
+applyCustomFilteringOption	Apply custom filtering (Choose threshold)
+continueWithAllModalitiesOption	Continue with all modalities (Performance impact: {level})
+uniqueValuesLabel	Unique values
+conversionPreviewLabel	Conversion Preview
+conversionPreviewText	This will treat
+uniqueNumericValuesText	unique numeric values as separate categories
+chooseActionLabel	Choose your preferred action:
+cannotConvertLabel	Cannot convert:
+tooManyUniqueValuesText	Too many unique values for effective categorization
+suggestedAlternativesLabel	Suggested alternatives:
+createBinsAlternative	Create bins/ranges using preprocessing
+useDifferentVariableAlternative	Use a different grouping variable
+filterDataAlternative	Filter data to reduce unique values
+performanceImpactTitle	Performance Impact
+recommendedOptionSuffix	(Recommended)
+customFilteringTitle	Custom Filtering Options
+keepTopNLabel	Keep top N modalities
+minimumFrequencyLabel	Minimum frequency
+complexitySimple	Simple
+complexityModerate	Moderate
+complexityComplex	Complex
+complexityVeryComplex	Very Complex
+complexityExtreme	Extreme
+userChoiceConfirmLabel	Confirm Choice
+userChoiceCancelLabel	Cancel
+choiceAppliedNotification	Your choice has been applied successfully
+estimatedUITime	Estimated UI response time
+domElementsCount	UI elements to render
+memoryUsageEstimate	Memory usage estimate
+performanceLevelAcceptable	Acceptable
+advancedFilteringTitle	Advanced Filtering
+cannotConvertLabel	Cannot convert:
+tooManyUniqueValuesText	Too many unique values for effective categorization
+suggestedAlternativesLabel	Suggested alternatives:
+createBinsAlternative	Create bins/ranges using preprocessing
+useDifferentVariableAlternative	Use a different grouping variable
+filterDataAlternative	Filter data to reduce unique values
+performanceImpactTitle	Performance Impact
+estimatedUITime	Estimated UI response time
+domElementsCount	UI elements to render
+memoryUsageEstimate	Memory usage estimate
+complexityLevel	Complexity level
+customFilteringTitle	Custom Filtering Options
+keepTopNLabel	Keep top N modalities
+minimumFrequencyLabel	Minimum frequency
+performanceWarningText	Plots may be very slow to generate and difficult to read with this many modalities
+selectOptionPrompt	Please select an option
+modalitiesLabel	modalities
+continueQuestionLabel	Do you want to continue?
+modalityCountLabel	Modalities
+complexitySimple	Simple
+complexityModerate	Moderate
+complexityComplex	Complex
+complexityVeryComplex	Very Complex
+complexityExtreme	Extreme
+performanceLevelLow	Low Impact
+performanceLevelAcceptable	Acceptable
+performanceLevelHigh	High Impact
+performanceLevelVeryHigh	Very High Impact
+smartFilteringAppliedText	Smart filtering applied
+customFilteringAppliedText	Custom filtering applied
+automaticFilteringAppliedText	Modalities filtered automatically according to selected criteria
+modalitiesKeptText	modalities kept
+smartFilteringErrorText	Error during smart filtering
+customFilteringErrorText	Error during custom filtering
+allModalitiesKeptText	All modalities kept
+modalitiesLabel	modalities
+errorApplyingChoiceText	Error applying choice
+filteringMethodTitle	Filtering method
+topNFilteringMethodOption	Keep the N most frequent modalities
+minFreqFilteringMethodOption	Keep modalities with minimum frequency
+combinedFilteringMethodOption	Combined: top N among those with frequency ≥ threshold
+numberOfModalitiesLabel	Number of modalities (N)
+minimumFrequencyThresholdLabel	Minimum frequency threshold
+defaultFilteringPreviewText	Preview: The 50 most frequent modalities will be kept (50/total)
+numericConversionWarningText	⚠ Warning: {count} categories will create complex and slow plots.
+cancelVariableSelectionRecommendedOption	{cancel_text} (Recommended)
+convertToCategorialNotRecommendedOption	⚠ Convert to categorical variable (Not recommended for {count} values > {threshold})
+codeHeaderUserOperations	USER OPERATIONS HISTORY
+codeSessionLabel	Session
+codeGeneratedOnLabel	Generated on
+codeTotalOperationsLabel	Total operations
+codeNumericConversionsTitle	NUMERIC VARIABLE CONVERSIONS
+codeCustomFilteringTitle	CUSTOM MODALITY FILTERING
+codeVariableLabel	Variable
+codeOriginalValuesLabel	Original unique values
+codeConversionMethodLabel	Conversion method
+codeFilteringMethodLabel	Filtering method
+codeDataVerificationLabel	Data verification after operations
+codeSuccessMessage	Successfully applied operation
+codeErrorMessage	Error applying operation
+codeFilteringReproductionNote	To reproduce this filtering exactly
+codeNumericConversionNote	This conversion preserves the exact ordering used in the application
+codeOperationsMetadataInclude	Include metadata in generated code
+codeOperationsTimestampsInclude	Include operation timestamps
+codeOperationsPlatformInclude	Include R version and platform info
+codeAdvancedOptionsTitle	Advanced Code Generation Options
+codeErrorHandlingInclude	Include error handling in operations
+codeVerificationStepsInclude	Include data verification steps  
+codePerformanceOptimInclude	Use performance optimization
+codeAdvancedOptionsHelp	These options control how user operations are documented in the generated R code. Changes apply to newly generated code.
+codeNumericConversionNote	This conversion preserves the exact ordering used in the application
+codeExactLevelsUnavailable	Warning: Exact levels not available, using numeric sort
+codeErrorHandlingInclude	Include error handling in operations
+codeVerificationStepsInclude	Include data verification steps
+codePerformanceOptimInclude	Use performance optimization
+codeAdvancedOptionsHelp	These options control how user operations are documented in the generated R code. Changes apply to newly generated code.
+codeVerificationStartMessage	Data verification after user operations
+codeVerificationLevelsText	levels
+codeVerificationRowsText	rows
+codeVerificationDatasetSizeText	Final dataset size
+codeUserModifiedOrderNote	Order modified by user after conversion
+codeHeaderTitle	iPlotDesigner - Generated R Code (Executable Operations)
+codeRVersionTitle	R version and packages versions
+codeRequiredLibrariesTitle	Required libraries
+codeLoadDataTitle	Load data
+codeFilteringErrorMessage	Error during filtering for
+codeMeanLabel	Mean
+codeThresholdUsedLabel	Threshold used
+codeFactorOrderPreservationLabel	Factor with preserved numeric ordering
+codeFallbackLabel	Fallback
+codeOriginalModalitiesLabel	Original modalities
+codeKeptModalitiesLabel	Kept modalities
+codeSmartFilterMethodDescription	Keep the N most frequent modalities
+codeTopNMethodDescription	Keep the N top modalities
+codeMinFreqMethodDescription	Keep modalities with frequency
+codeCombinedMethodDescription	Combined - top N among those with frequency
+codeAutoExcludeMethodDescription	Automatic exclusion of modalities with < 2 observations
+codeSpecificModalitiesMethodDescription	Keep specific modalities selected by user
+codeFilteringAppliedMessage	Filtering applied for
+codeTopNFilteringAppliedMessage	Top-N filtering applied for
+codeFreqFilteringAppliedMessage	Frequency filtering applied for
+codeCombinedFilteringAppliedMessage	Combined filtering applied for
+codeAutoExclusionAppliedMessage	Automatic exclusion applied for
+codeSpecificFilteringAppliedMessage	Specific filtering applied for
+filteredModalitiesCountLabel	Filtered modalities
+estimatedResponseTimeLabel	Estimated response time
+uiElementsLabel	UI elements
+memoryUsageLabel	Memory usage
+filteredModalitiesExamplesTitle	Examples of filtered modalities (< 2 observations)
+totalModalitiesLabel	total
+warningAttention	Warning
+keepAllModalitiesWarning	Keeping all modalities may make plots difficult to read and slower to generate
+pleaseSelectOptionMessage	Please select an option
+codeDensityLabel	Density
+codeCountLabel	Count
+advancedImportOptionsTooltip	Preview data before loading and configure import parameters: column separator, encoding, sheet selection, undefined values
+dialogErrorMessage	An error occurred while displaying the advanced dialog.
+dialogErrorTitle	Dialog Error
+errorDetails	Error details
+fallbackMessage	Please use the basic validation or contact support.
+performanceAcceptableText	Acceptable performance expected
+performanceGoodText	Good performance expected
+performanceSlowText	Slow performance expected
+performanceVerySlowText	Very slow performance expected
+duplicateVariableReuseNotification	Variable automatically reused with existing properties
+duplicateVariableReuseDetails	Properties copied from Variable {source}: {modality_count} modalities, colors, and order
+duplicatePropertiesApplied	Duplicate properties applied successfully
+variableIsSourceLabel	Source (modifiable)
+variableIsCopyLabel	Copy of Variable {source} (read-only)
+variablePropertiesSynchronized	Properties synchronized with Variable {source}
+sourceVariableDeselected	Variable {var} is now the source (previous source deselected)
+variableIsCopyLabel	Copy of Variable {source} (read-only)
+variablePropertiesSynchronized	Properties synchronized with Variable {source}
+modifyPropertiesInSourceTab	To modify properties, please use the {source_tab} tab.
+sourceVariableDeselected	Variable {var} is now the source (previous source deselected)
+naValuesDialogTitle	Undefined Values (NA) Detected
+naValuesMessage	Variable {variable} contains {count} undefined values (NA) ({percentage}% of data)
+filterNAOption	✓ Filter rows with undefined values (Recommended)
+assignCodeOption	Assign custom label for undefined values
+keepNAOption	Keep undefined values as separate category
+naCustomLabelPrompt	Custom label for undefined values:
+naCustomLabelDefault	Unknown
+naNumericVariableWarningTitle	⚠ Numeric Variable
+naNumericVariableWarningMessage	This is a numeric variable. Choosing 'Assign custom label' or 'Keep as category' will convert it to a categorical variable.
+cancelLabel	Cancel
+unsupportedVariableTitle	Unsupported Variable
+unsupportedVariableMessage	This variable cannot be used for grouping.
+codeNAHandlingTitle	UNDEFINED (NA) VALUES HANDLING
+codeNAHandlingNote	Operations applied to handle undefined values (NA)
+codeNACountLabel	NA values
+codeFilterNADescription	Filtered rows with NA values
+codeAssignCodeDescription	Assigned custom code to NA values
+codeKeepNADescription	Kept NA as separate category
+codeFilterNASuccess	Rows with NA filtered
+codeAssignCodeSuccess	Custom code assigned to NA
+codeKeepNASuccess	NA kept as category
+codeNAHandlingError	Error during NA handling for
+codeFilterSubgroupsComment	Filter subgroups with insufficient data for density calculation
+sampleSizeTabLabel	Sample sizes
+sampleSizeTitle	Sample sizes by subgroup
+sampleSizeVar3DisplayLabel	Variable 3 display
+sampleSizeShowTotalsLabel	Show marginal totals
+sampleSizeHideEmptyLabel	Hide empty rows/columns
+sampleSizeTablesPerRowLabel	Tables per row
+sampleSizeLegendTitle	Legend
+sampleSizeZeroLabel	Zero count
+sampleSizeOneLabel	Single value
+sampleSizeNormalLabel	Normal count
+sampleSizeCount	Count
+sampleSizeTotal	Total
+sampleSizeFacetLabel	Group
+subgroupWarningBoth	The variable selection includes {N1} group(s) with no values and {N2} group(s) with a single value. See the Sample sizes tab for details.
+subgroupWarningZero	The variable selection includes {N1} group(s) with no values. See the Sample sizes tab for details.
+subgroupWarningOne	The variable selection includes {N2} group(s) with a single value. See the Sample sizes tab for details.
+filteringNotInCodeWarning	Note: Filtering applied via this table affects the displayed plots but is NOT reflected in the generated R code.
+barTypeLabel	Bar height represents
+barTypeMeanLabel	Mean
+barTypeCountLabel	Count
+codeCountLabel	Count
+sampleSizeVar3Facets	Facets (separate tables)
+sampleSizeVar3Rows	Rows (Var1 × Var3)
+sampleSizeVar3Cols	Columns (Var2 × Var3)
+themeAdvancedOptionsTitle	Advanced Theme Options
+themeBaseThemeLabel	Base theme
+themeLegendBackgroundLabel	Legend background matches panel
+themeLegendBackgroundColorLabel	Legend background color
+themeLegendKeyLabel	Legend key matches panel
+themeLegendKeyColorLabel	Legend key color
+themeStripBackgroundLabel	Facet strip matches panel
+themeStripBackgroundColorLabel	Facet strip color
+themeLegendPositionLabel	Legend position
+themeAxisTextSizeLabel	Axis text size
+themeAxisTextFamilyLabel	Axis text font
+themeXAxisTextSizeLabel	X-axis text size
+themeYAxisTextSizeLabel	Y-axis text size
+themeXAxisTextAngleLabel	X-axis text angle
+themeYAxisTextAngleLabel	Y-axis text angle
+themeXAxisTextFamilyLabel	X-axis font
+themeYAxisTextFamilyLabel	Y-axis font
+themeUseGlobalSizeLabel	Use global text size
+themeUseGlobalFontLabel	Use global font
+themeResetToDefaultLabel	Reset to defaults
+themeAdvancedOptionsHelp	These options allow fine-grained control of plot appearance. Changes apply immediately to displayed plots and generated code.
+themeLegendBackgroundColorLabel	Legend background color
+themeFaceLabel	Style
+themeFacePlain	Normal
+themeFaceBold	Bold
+themeFaceItalic	Italic
+themeFaceBoldItalic	Bold Italic
+themeAdvancedCustomizationNote	Note: This interface covers the most common theme options. For advanced customization (margins, spacing, element positions, etc.), you can modify the theme() section in the generated R code.
+themeCodeDocumentationComment	Theme customization - See ggplot2 documentation:
+themeBaseThemeSection	Base Theme
+themeBackgroundSection	Background Elements
+themeAxisTextSection	Axis Text Customization
+themeXAxisSection	X-Axis
+themeYAxisSection	Y-Axis
+themeBaseThemeHelp	Base theme provides general graphical settings. Additional customizations below modify specific elements.
+themeLegendPositionHelp	Position of the legend relative to the plot area.
+themeLegendPositionRight	Right
+themeLegendPositionLeft	Left
+themeLegendPositionTop	Top
+themeLegendPositionBottom	Bottom
+themeLegendPositionNone	None
+themeGridBorderSection	Grids and Borders
+themeGridBorderHelp	Grid and border visibility depends on the selected base theme. These options only affect visible elements.
+themeMajorGridSection	Major Grid Lines
+themeMinorGridSection	Minor Grid Lines
+themePanelBorderSection	Panel Border
+themeStripBorderSection	Strip Border (Facets)
+themeGridMajorColorLabel	Major grid color
+themeGridMinorColorLabel	Minor grid color
+themeGridMajorSizeLabel	Major grid line width
+themeGridMinorSizeLabel	Minor grid line width
+themePanelBorderColorLabel	Panel border color
+themePanelBorderSizeLabel	Panel border width
+themeStripBorderColorLabel	Strip border color
+themeStripBorderSizeLabel	Strip border width
+themeTitlesSection 	Titles Customization
+themeUseGlobalTitlesSizeLabel 	Use global text size for titles
+themeUseGlobalTitlesFontLabel 	Use global font for titles
+themeTitlesSizeLabel 	Titles text size
+themeTitlesFontLabel 	Titles font
+themeIndividualTitlesSection 	Individual Title Controls
+themeAxisTitleXLabel 	X-axis title
+themeAxisTitleYLabel 	Y-axis title
+themeStripTextLabel 	Strip text (facets)
+themeStripSeparateXY 	Separate X/Y strips
+themeStripTextXLabel 	Strip X
+themeStripTextYLabel 	Strip Y
+themeLegendTitleLabel 	Legend title
+themeLegendTextLabel 	Legend text
+themeUseGlobalAxisSizeLabel	Use global text size for axes
+themeUseGlobalAxisFontLabel	Use global font for axes
+themeShowMajorGrid	Show major grid lines
+themeShowMinorGrid	Show minor grid lines
+themeShowLegendKey	Show legend key background
+themeShowPanelBorder	Show panel border
+themeShowStripBorder	Show strip border
+themeLegendKeyBorderColorLabel	Legend key border color
+themeLegendKeySection	Legend Key Border
+themeSizeLabel	Size
+themeFontLabel	Font
+includeSystemFontsLabel	Include system fonts
+includeSystemFontsHelp	Requires extrafont package. See documentation for setup instructions.
+extrafontNotInstalledTitle	Package Not Installed
+extrafontNotInstalledMessage	The extrafont package is required for system fonts. Please install it first:
+noFontsImportedMessage	No fonts imported yet
+fontsAvailableMessage	fonts available
+errorLabel	Error
+fontImportTitle	Import System Fonts
+fontImportWarning	This operation will import all system fonts. This may take several minutes (typically 2-5 minutes).
+fontImportNote	Note: This only needs to be done once. The fonts will remain available in future sessions.
+suppressFontWarningsLabel	Suppress warnings for fonts without metadata (recommended)
+confirmImportLabel	Import Fonts
+fontImportDisabledTitle	Font Import Disabled
+fontImportDisabledMessage	System font import is disabled in this deployment. Only pre-imported fonts are available.
+fontImportDisabledNote	If you need system fonts, please contact your administrator or use a local installation.
+fontsLoadedMessage	System fonts loaded:
+fontImportInProgress	Importing system fonts... This may take several minutes.
+fontsImportedMessage	System fonts imported successfully:
+fontImportError	Font import failed:
+reimportFontsTitle	Re-import System Fonts
+reimportFontsQuestion	This will re-scan your system for fonts. Use this after installing new fonts.
+reimportFontsWarning	This operation may take several minutes.
+confirmLabel	Re-import
+fontsReimportedMessage	System fonts re-imported successfully:
+fontReimportError	Font re-import failed:
+codeCommentBaseTheme	Base theme
+codeCommentGeneralTheme	General theme parameters
+codeCommentLegendPosition	Legend position
+codeCommentBackgrounds	Background colors
+codeCommentTitles	Title customization
+codeCommentAxisText	Axis text customization
+codeCommentGridsBorders	Grids and borders
+codeCommentFontSetup	Font setup (system fonts)
+codeCommentRequiredFonts	Required fonts:
