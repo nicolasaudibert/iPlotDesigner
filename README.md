@@ -1,4 +1,4 @@
-# iPlotDesigner - Interactive Distribution Visualization
+# iPlotDesigner - Interactive plot design and R code generation
 
 Shiny app to import a data file, choose quantitative and categorical variables, and create customizable distribution plots (histograms, density plots, box plots, violin plots, bar plots, ridge plots) with extensive theme customization and production-ready R code generation.
 
