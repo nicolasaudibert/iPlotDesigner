@@ -63,11 +63,15 @@ maxUploadSizeMB <- 30   # Set to 30MB
 maxUploadSizeMB <- Inf  # No limit
 ```
 
-### Language
+### Set language
 
-The app uses localization files in the `localization` subfolder. Default is English.
+TL;DR: To use the English version of the app, you don't need to do anything.
 
-To change language, replace `iPlotDesigner.html` and `iPlotDesigner.labels.txt` with copies of localization files in another language, or use symbolic links (recommended).
+The app uses files iPlotDesigner.html and iPlotDesigner.labels.txt to define the text displayed. These files correspond to files in the 'localization' subfolder named iPlotDesigner.[Language].html and iPlotDesigner.[Language].labels.txt
+
+Files iPlotDesigner.html and iPlotDesigner.labels.txt included in the root folder repository are duplicated of files iPlotDesigner.English.html and iPlotDesigner.English.labels.txt to ensure compatibility with any operating system.
+
+To use another language, replace iPlotDesigner.html and iPlotDesigner.labels.txt with copies of localization files in another language, or use symbolic links to localization files (recommanded). To define localization symbolic links on Linux or MacOS, you may use the shell script set_localization_symlinks_iPlotDesigner.sh with the target language as an argument.
 
 ## Documentation
 
