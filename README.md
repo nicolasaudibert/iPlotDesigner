@@ -17,7 +17,7 @@ Try the app online:
 - **Up to 3 grouping variables**: Primary grouping, color aesthetics, faceting
 - **68 theme parameters**: Comprehensive customization (fonts, colors, sizes, grids, borders)
 - **Executable R code generation**: Production-ready code with full reproducibility
-- **Bilingual interface**: English and French localization
+- **Multilingual interface**: English and French localization, new languages may be easily added by editing text files (see section'Set language' below)
 - **Advanced data import**: CSV, TSV, Excel, ODS with preview and filtering
 
 ## Installation and Execution (Local)
