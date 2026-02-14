@@ -4,9 +4,12 @@ Shiny app to import a data file, choose quantitative and categorical variables, 
 
 This application was developed by Nicolas Audibert, using Claude (Anthropic) as an AI assistant, building upon the iScatter application architecture and extending it with advanced distribution visualization capabilities.
 
-For details about the iScatter application, see:
-Audibert, N. (2024). iHist et iScatter, outils en ligne d'exploration interactive de données : application aux valeurs aberrantes de f0 et de formants. Actes des 35èmes Journées d'Études sur la Parole (JEP 2024), Juillet 2024, Toulouse, France, pp.598-607. ⟨hal-04623107⟩
+For details about the iScatter application, see the repository (https://github.com/nicolasaudibert/iScatter) and the related publication (in French):
 https://inria.hal.science/hal-04623107v1/document
+
+Try the app online:
+- English version: https://shiny.laboratoirephonetiquephonologie.fr/iPlotDesigner/
+- French version: https://shiny.laboratoirephonetiquephonologie.fr/iPlotDesigner_fr/
 
 ## Key Features
 
