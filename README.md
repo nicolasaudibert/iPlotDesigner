@@ -56,7 +56,7 @@ install.packages("extrafont")
 
 ### Maximum Upload Size
 
-Default is 20MB. To change, edit `maxUploadSizeMB` in app.R:
+Default is 20MB. To change, edit `maxUploadSizeMB` in global_settings.R:
 
 ```r
 maxUploadSizeMB <- 30   # Set to 30MB
