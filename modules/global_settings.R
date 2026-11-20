@@ -193,4 +193,11 @@ ENHANCED_CODE_CONFIG <- list(
   use_compact_format = FALSE
 )
 
+# ============================================================================
+# Shiny options settings
+# ============================================================================
+
+# Set the file upload limit
+base::options(shiny.maxRequestSize = maxUploadSizeMB * 1024^2)
+
 debugLog("GLOBAL_SETTINGS: Global settings and configurations loaded", "APP_STARTUP")
